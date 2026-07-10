@@ -1,0 +1,54 @@
+// Variable (LET AND CONST)
+const name = 'Shruti';
+console.log(name);
+// If i try to again reassign it it will show error
+//name = 'Ayush';
+//console.log(name); //-> throws error
+//Practice Question 1
+//Store your age in a variable and increase it by one.
+let age = 22;
+age++;
+console.log(age);
+//-----------------------------------------------------------------------
+
+// Functions
+function add(a,b){
+    return a+b;
+}
+console.log(add(5,3));
+
+//Multiplication of two numbers
+function multiply(a,b){
+    return a*b;
+}
+console.log(multiply(4,5));
+
+//------------------------------------------------------------------------
+
+//Arrow Functions
+const greet = (name)=> {
+    return "hello "+name;
+}
+console.log(greet("Shruti"));
+
+
+// square function 
+const sq = (num)=>num*num
+console.log(sq(8));
+
+// cube of a number
+const cb = (n)=>n*n*n
+console.log(cb(9));
+
+//Object
+const student ={
+    name : 'Shruti',
+    age : 21,
+    city : 'Delhi'
+    };
+console.log(student.name);
+console.log(student.city);
+
+
+
+
