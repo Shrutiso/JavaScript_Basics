@@ -1,0 +1,33 @@
+//Object
+const student ={
+    name : 'Shruti',
+    age : 21,
+    city : 'Delhi'
+    };
+console.log(student.name);
+console.log(student.city);
+
+// Creating object of a laptop
+const laptop = {
+    brand : 'HP',
+    Ram : '16GB',
+    price : 300000
+};
+console.log(laptop.brand);
+
+//Arrays
+const fruits = ["Apple" , "Banana" , "Mango"];
+console.log(fruits[0]);
+console.log(fruits[2]);
+fruits.push("Orange");
+console.log(fruits);
+
+//Destructuring
+const user ={
+    name : "Shruti",
+    age : 21
+};
+const {name , age} = user;
+console.log(name);
+console.log(age);
+//
