@@ -1,0 +1,30 @@
+ //Array destructing example print first and last element
+const nums = [100,200,300];
+const [a,b,c] = nums;
+console.log(a);
+console.log(c);
+
+//Template Litrals
+const price = 600;
+ console.log(`Price is ₹${price}`);
+//Spread Operator
+const arr1 = [1,2,3];
+const arr2 = [...arr1 , 4 , 5];
+console.log(arr2);
+//Map 
+const n = [1,2,3];
+const result = n.map((n)=>n*2);
+console.log(result);
+//filter
+const s = [1,2,3,4,5,6];
+const even = s.filter((s)=>s%2==0);
+console.log(even);
+//optional Chaining
+const u = {
+    a: {
+        b: "Shruti"
+    }
+};
+
+console.log(u?.a?.b);
+
